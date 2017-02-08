@@ -8,7 +8,8 @@ public class Greedy {
 
 	public static void main(String args[])throws IOException{
 		Greedy ob=new Greedy();
-		String path="E:\\work\\Deepanshu\\DummyData4.txt"; //Set the path for "postive.txt" file for initial positive opinion words
+		//String path="E:\\work\\Deepanshu\\DummyData4.txt"; //Set the path for "postive.txt" file for initial positive opinion words
+		String path=args[0];
 		BufferedReader inp= new BufferedReader(new FileReader(path));
 		int m=0,n=0;
 		String sCurrentLine= inp.readLine();
